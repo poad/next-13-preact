@@ -1,0 +1,42 @@
+name: Build and Test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+    - main
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      id: pnpm-install
+      with:
+        run_install: |
+          - recursive: false
+            args: [--no-frozen-lockfile]
+
+    - name: Use Node.js 18.x
+      uses: actions/setup-node@v3.8.1
+      with:
+        node-version: 18.x
+        check-latest: true
+
+    - name: lint
+      run: |
+        pnpm lint
+
+    - name: build
+      run: |
+        pnpm build
+
+    - name: debug
+      run: ls
