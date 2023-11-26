@@ -149,11 +149,11 @@ devDependencies:
     specifier: ^0.6.15
     version: 0.6.15(eslint@8.54.0)(typescript@5.2.2)
   msw:
-    specifier: ^2.0.8
-    version: 2.0.8(typescript@5.2.2)
+    specifier: ^2.0.9
+    version: 2.0.9(typescript@5.2.2)
   msw-storybook-addon:
     specifier: ^1.10.0
-    version: 1.10.0(msw@2.0.8)
+    version: 1.10.0(msw@2.0.9)
   postcss:
     specifier: ^8.4.31
     version: 8.4.31
@@ -7972,8 +7972,8 @@ packages:
       restore-cursor: 3.1.0
     dev: true
 
-  /cli-spinners@2.9.1:
-    resolution: {integrity: sha512-jHgecW0pxkonBJdrKsqxgRX9AcG+u/5k0Q7WPDfi8AogLAdwxEkyYYNWwZ5GvVFoFx2uiY1eNcSK00fh+1+FyQ==}
+  /cli-spinners@2.9.2:
+    resolution: {integrity: sha512-ywqV+5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg==}
     engines: {node: '>=6'}
     dev: true
 
@@ -11779,17 +11779,17 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw-storybook-addon@1.10.0(msw@2.0.8):
+  /msw-storybook-addon@1.10.0(msw@2.0.9):
     resolution: {integrity: sha512-soCTMTf7DnLeaMnFHPrtVgbyeFTJALVvnDHpzzXpJad+HOzJgQdwU4EAzVfDs1q+X5cVEgxOdAhSMC7ljvnSXg==}
     peerDependencies:
       msw: '>=0.35.0 <2.0.0'
     dependencies:
       is-node-process: 1.2.0
-      msw: 2.0.8(typescript@5.2.2)
+      msw: 2.0.9(typescript@5.2.2)
     dev: true
 
-  /msw@2.0.8(typescript@5.2.2):
-    resolution: {integrity: sha512-/5nQCotVka62lvubQ3tMfUS3TukyeBwvWyvAthcXvDlXGhkA/85HlEwZyFlJ3ZsPW45Ty+ao0S4oFvuM12R/kA==}
+  /msw@2.0.9(typescript@5.2.2):
+    resolution: {integrity: sha512-rl3kuGS+wuB4EKyL5nJ5WIoteCIzIgySp5b2hmIQ7fuXFfDfn/yD+E0k/3lDNFnC79tM3cuws6XmJEdPr7y+Zg==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -12266,7 +12266,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.9.1
+      cli-spinners: 2.9.2
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
