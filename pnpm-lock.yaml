@@ -173,8 +173,8 @@ devDependencies:
     specifier: ^0.2.3
     version: 0.2.3(@swc/core@1.3.101)(webpack@5.89.0)
   tailwindcss:
-    specifier: ^3.3.7
-    version: 3.3.7
+    specifier: ^3.4.0
+    version: 3.4.0
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -12237,8 +12237,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.3.7:
-    resolution: {integrity: sha512-pjgQxDZPvyS/nG3ZYkyCvsbONJl7GdOejfm24iMt2ElYQQw8Jc4p0m8RdMp7mznPD0kUhfzwV3zAwa80qI0zmQ==}
+  /tailwindcss@3.4.0:
+    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
