@@ -3339,7 +3339,7 @@ packages:
       '@storybook/api': 7.6.6(react-dom@18.2.0)(react@18.2.0)
       '@storybook/components': 7.6.6(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-common': 7.6.6
-      '@storybook/core-events': 7.6.5
+      '@storybook/core-events': 7.6.6
       '@storybook/manager-api': 7.6.6(react-dom@18.2.0)(react@18.2.0)
       '@storybook/node-logger': 7.6.6
       '@storybook/preview-api': 7.6.6
@@ -3656,12 +3656,6 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: true
-
-  /@storybook/core-events@7.6.5:
-    resolution: {integrity: sha512-zk2q/qicYXAzHA4oV3GDbIql+Kd4TOHUgDE8e4jPCOPp856z2ScqEKUAbiJizs6eEJOH4nW9Db1kuzgrBVEykQ==}
-    dependencies:
-      ts-dedent: 2.2.0
     dev: true
 
   /@storybook/core-events@7.6.6:
