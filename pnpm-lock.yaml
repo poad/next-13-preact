@@ -28,13 +28,13 @@ dependencies:
     version: 14.1.0(@babel/core@7.23.9)(react-dom@18.2.0)(react@18.2.0)
   next-plugin-preact:
     specifier: ^3.0.7
-    version: 3.0.7(@prefresh/babel-plugin@0.4.4)(next@14.1.0)(preact-render-to-string@6.4.0)(preact-ssr-prepass@1.2.1)(preact@10.19.5)(webpack@5.90.3)
+    version: 3.0.7(@prefresh/babel-plugin@0.4.4)(next@14.1.0)(preact-render-to-string@6.4.0)(preact-ssr-prepass@1.2.1)(preact@10.19.6)(webpack@5.90.3)
   preact:
-    specifier: ^10.19.5
-    version: 10.19.5
+    specifier: ^10.19.6
+    version: 10.19.6
   preact-render-to-string:
     specifier: ^6.4.0
-    version: 6.4.0(preact@10.19.5)
+    version: 6.4.0(preact@10.19.6)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -43,7 +43,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-ssr-prepass:
     specifier: npm:preact-ssr-prepass@^1.2.1
-    version: /preact-ssr-prepass@1.2.1(preact@10.19.5)
+    version: /preact-ssr-prepass@1.2.1(preact@10.19.6)
   web-vitals:
     specifier: ^3.5.2
     version: 3.5.2
@@ -2644,15 +2644,15 @@ packages:
     resolution: {integrity: sha512-joAwpkUDwo7ZqJnufXRGzUb+udk20RBgfA8oLPBh5aJH2LeStmV1luBfeJTztPdyCscC2j2SmZ/tVxFRMIxAEw==}
     dev: false
 
-  /@prefresh/core@1.5.2(preact@10.19.5):
+  /@prefresh/core@1.5.2(preact@10.19.6):
     resolution: {integrity: sha512-A/08vkaM1FogrCII5PZKCrygxSsc11obExBScm3JF1CryK2uDS3ZXeni7FeKCx1nYdUkj4UcJxzPzc1WliMzZA==}
     peerDependencies:
       preact: ^10.0.0
     dependencies:
-      preact: 10.19.5
+      preact: 10.19.6
     dev: false
 
-  /@prefresh/next@1.7.0(next@14.1.0)(preact@10.19.5)(webpack@5.90.3):
+  /@prefresh/next@1.7.0(next@14.1.0)(preact@10.19.6)(webpack@5.90.3):
     resolution: {integrity: sha512-/F1fYwgEgTkKwf9SGLXyaOe+WFtjR8ZwzSatro9HKPAuNWtUFwKzNC91tzrFSKdUWDAQf/Drjh8sMgBkEkPDHw==}
     peerDependencies:
       next: ^9.4.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
@@ -2660,11 +2660,11 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       '@prefresh/babel-plugin': 0.5.0
-      '@prefresh/core': 1.5.2(preact@10.19.5)
+      '@prefresh/core': 1.5.2(preact@10.19.6)
       '@prefresh/utils': 1.2.0
-      '@prefresh/webpack': 4.0.0(@prefresh/babel-plugin@0.5.0)(preact@10.19.5)(webpack@5.90.3)
+      '@prefresh/webpack': 4.0.0(@prefresh/babel-plugin@0.5.0)(preact@10.19.6)(webpack@5.90.3)
       next: 14.1.0(@babel/core@7.23.9)(react-dom@18.2.0)(react@18.2.0)
-      preact: 10.19.5
+      preact: 10.19.6
       webpack: 5.90.3(@swc/core@1.4.2)(esbuild@0.18.20)
     dev: false
 
@@ -2672,7 +2672,7 @@ packages:
     resolution: {integrity: sha512-KtC/fZw+oqtwOLUFM9UtiitB0JsVX0zLKNyRTA332sqREqSALIIQQxdUCS1P3xR/jT1e2e8/5rwH6gdcMLEmsQ==}
     dev: false
 
-  /@prefresh/webpack@3.3.4(@prefresh/babel-plugin@0.4.4)(preact@10.19.5)(webpack@5.90.3):
+  /@prefresh/webpack@3.3.4(@prefresh/babel-plugin@0.4.4)(preact@10.19.6)(webpack@5.90.3):
     resolution: {integrity: sha512-RiXS/hvXDup5cQw/267kxkKie81kxaAB7SFbkr8ppshobDEzwgUN1tbGbHNx6Uari0Ql2XByC6HIgQGpaq2Q7w==}
     peerDependencies:
       '@prefresh/babel-plugin': ^0.4.0
@@ -2680,13 +2680,13 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       '@prefresh/babel-plugin': 0.4.4
-      '@prefresh/core': 1.5.2(preact@10.19.5)
+      '@prefresh/core': 1.5.2(preact@10.19.6)
       '@prefresh/utils': 1.2.0
-      preact: 10.19.5
+      preact: 10.19.6
       webpack: 5.90.3(@swc/core@1.4.2)(esbuild@0.18.20)
     dev: false
 
-  /@prefresh/webpack@4.0.0(@prefresh/babel-plugin@0.5.0)(preact@10.19.5)(webpack@5.90.3):
+  /@prefresh/webpack@4.0.0(@prefresh/babel-plugin@0.5.0)(preact@10.19.6)(webpack@5.90.3):
     resolution: {integrity: sha512-Ppr8GNASfq/Zsw/dFOhHz3DYZWfAnqRhz2ryZo4b7VA4x4nQzALYLILK32w9YdSw6WYhIMQdjBkugk6PstcwFg==}
     peerDependencies:
       '@prefresh/babel-plugin': ^0.5.0
@@ -2694,9 +2694,9 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       '@prefresh/babel-plugin': 0.5.0
-      '@prefresh/core': 1.5.2(preact@10.19.5)
+      '@prefresh/core': 1.5.2(preact@10.19.6)
       '@prefresh/utils': 1.2.0
-      preact: 10.19.5
+      preact: 10.19.6
       webpack: 5.90.3(@swc/core@1.4.2)(esbuild@0.18.20)
     dev: false
 
@@ -10136,7 +10136,7 @@ packages:
   /neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /next-plugin-preact@3.0.7(@prefresh/babel-plugin@0.4.4)(next@14.1.0)(preact-render-to-string@6.4.0)(preact-ssr-prepass@1.2.1)(preact@10.19.5)(webpack@5.90.3):
+  /next-plugin-preact@3.0.7(@prefresh/babel-plugin@0.4.4)(next@14.1.0)(preact-render-to-string@6.4.0)(preact-ssr-prepass@1.2.1)(preact@10.19.6)(webpack@5.90.3):
     resolution: {integrity: sha512-8Xl+SJT3FCZHS7R/6Gana6e95o09UpiyCsK0cw8P/KW2M+lQcYIwIt4ZLZd+K9TW3JZx6KJDLqVbq0Kd6KZsIg==}
     requiresBuild: true
     peerDependencies:
@@ -10144,12 +10144,12 @@ packages:
       preact-render-to-string: '>=5'
       preact-ssr-prepass: '>=1'
     dependencies:
-      '@prefresh/next': 1.7.0(next@14.1.0)(preact@10.19.5)(webpack@5.90.3)
-      '@prefresh/webpack': 3.3.4(@prefresh/babel-plugin@0.4.4)(preact@10.19.5)(webpack@5.90.3)
+      '@prefresh/next': 1.7.0(next@14.1.0)(preact@10.19.6)(webpack@5.90.3)
+      '@prefresh/webpack': 3.3.4(@prefresh/babel-plugin@0.4.4)(preact@10.19.6)(webpack@5.90.3)
       module-alias: 2.2.3
-      preact: 10.19.5
-      preact-render-to-string: 6.4.0(preact@10.19.5)
-      preact-ssr-prepass: 1.2.1(preact@10.19.5)
+      preact: 10.19.6
+      preact-render-to-string: 6.4.0(preact@10.19.6)
+      preact-ssr-prepass: 1.2.1(preact@10.19.6)
     transitivePeerDependencies:
       - '@prefresh/babel-plugin'
       - next
@@ -10972,25 +10972,25 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /preact-render-to-string@6.4.0(preact@10.19.5):
+  /preact-render-to-string@6.4.0(preact@10.19.6):
     resolution: {integrity: sha512-pzDwezZaLbK371OiJjXDsZJwVOALzFX5M1wEh2Kr0pEApq5AV6bRH/DFbA/zNA7Lck/duyREPQLLvzu2G6hEQQ==}
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: 10.19.5
+      preact: 10.19.6
       pretty-format: 3.8.0
     dev: false
 
-  /preact-ssr-prepass@1.2.1(preact@10.19.5):
+  /preact-ssr-prepass@1.2.1(preact@10.19.6):
     resolution: {integrity: sha512-bLgbUfy8nL+PZghAPpyk9MF+cmXjdwEnxYPaJBmwbzFQqzIz8dQVBqjwB60RqZ9So/vIf6BRfHCiwFGuMCyfbQ==}
     peerDependencies:
       preact: '>=10 || ^10.0.0-beta.0 || ^10.0.0-alpha.0'
     dependencies:
-      preact: 10.19.5
+      preact: 10.19.6
     dev: false
 
-  /preact@10.19.5:
-    resolution: {integrity: sha512-OPELkDmSVbKjbFqF9tgvOowiiQ9TmsJljIzXRyNE8nGiis94pwv1siF78rQkAP1Q1738Ce6pellRg/Ns/CtHqQ==}
+  /preact@10.19.6:
+    resolution: {integrity: sha512-gympg+T2Z1fG1unB8NH29yHJwnEaCH37Z32diPDku316OTnRPeMbiRV9kTrfZpocXjdfnWuFUl/Mj4BHaf6gnw==}
     dev: false
 
   /prebuild-install@7.1.1:
