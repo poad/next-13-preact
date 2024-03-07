@@ -48,9 +48,9 @@
     "@storybook/nextjs": "^7.6.17",
     "@storybook/react": "^7.6.17",
     "@storybook/testing-library": "^0.2.2",
-    "@types/node": "^20.11.24",
-    "@types/react": "^18.2.63",
-    "@types/react-dom": "^18.2.20",
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "autoprefixer": "^10.4.18",
@@ -74,12 +74,12 @@
     "msw-storybook-addon": "^1.10.0",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11",
+    "prettier-plugin-tailwindcss": "^0.5.12",
     "rimraf": "^5.0.5",
     "storybook": "^7.6.17",
     "swc-loader": "^0.2.6",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "msw": {
     "workerDirectory": ".storybook/public"
