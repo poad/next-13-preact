@@ -79,7 +79,7 @@
     "storybook": "^8.0.5",
     "swc-loader": "^0.2.6",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "msw": {
     "workerDirectory": ".storybook/public"
