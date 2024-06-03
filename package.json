@@ -30,7 +30,7 @@
     "next": "^14.2.3",
     "next-plugin-preact": "^3.0.7",
     "preact": "^10.22.0",
-    "preact-render-to-string": "^6.5.3",
+    "preact-render-to-string": "^6.5.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.1",
