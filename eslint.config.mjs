@@ -60,7 +60,7 @@ export default tseslint.config(
         typescript: {},
       },
     },
-    // @ts-ignore
+    // @ts-expect-error ignore type errors
     rules: {
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
