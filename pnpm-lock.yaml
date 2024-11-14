@@ -67,7 +67,7 @@ importers:
         version: 15.0.3(@babel/preset-env@7.26.0(@babel/core@7.26.0))
       '@storybook/addon-essentials':
         specifier: ^8.4.3
-        version: 8.4.3(@types/react@18.3.12)(storybook@8.4.3)(webpack-sources@3.2.3)
+        version: 8.4.3(@types/react@18.3.12)(storybook@8.4.3)
       '@storybook/addon-interactions':
         specifier: ^8.4.3
         version: 8.4.3(storybook@8.4.3)
@@ -2844,8 +2844,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.57:
-    resolution: {integrity: sha512-xS65H/tqgOwUBa5UmOuNSLuslDo7zho0y/lgQw35pnrqiZh7UOWHCeL/Bt6noJATbA6tpQJGCifsFsIRZj1Fqg==}
+  electron-to-chromium@1.5.58:
+    resolution: {integrity: sha512-al2l4r+24ZFL7WzyPTlyD0fC33LLzvxqLCwurtBibVPghRGO9hSTl+tis8t1kD7biPiH/en4U0I7o/nQbYeoVA==}
 
   elliptic@6.6.1:
     resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
@@ -5097,14 +5097,9 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  unplugin@1.15.0:
-    resolution: {integrity: sha512-jTPIs63W+DUEDW207ztbaoO7cQ4p5aVaB823LSlxpsFEU3Mykwxf3ZGC/wzxFJeZlASZYgVrWeo7LgOrqJZ8RA==}
+  unplugin@1.16.0:
+    resolution: {integrity: sha512-5liCNPuJW8dqh3+DM6uNM2EI3MLLpCKp/KY+9pB5M2S2SR2qvvDHhKgBOaTWEbZTAws3CXfB0rKTIolWKL05VQ==}
     engines: {node: '>=14.0.0'}
-    peerDependencies:
-      webpack-sources: ^3
-    peerDependenciesMeta:
-      webpack-sources:
-        optional: true
 
   update-browserslist-db@1.1.1:
     resolution: {integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==}
@@ -6854,11 +6849,11 @@ snapshots:
       storybook: 8.4.3
       ts-dedent: 2.2.0
 
-  '@storybook/addon-docs@8.4.3(@types/react@18.3.12)(storybook@8.4.3)(webpack-sources@3.2.3)':
+  '@storybook/addon-docs@8.4.3(@types/react@18.3.12)(storybook@8.4.3)':
     dependencies:
       '@mdx-js/react': 3.1.0(@types/react@18.3.12)(react@18.3.1)
       '@storybook/blocks': 8.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.3)
-      '@storybook/csf-plugin': 8.4.3(storybook@8.4.3)(webpack-sources@3.2.3)
+      '@storybook/csf-plugin': 8.4.3(storybook@8.4.3)
       '@storybook/react-dom-shim': 8.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.3)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -6866,14 +6861,13 @@ snapshots:
       ts-dedent: 2.2.0
     transitivePeerDependencies:
       - '@types/react'
-      - webpack-sources
 
-  '@storybook/addon-essentials@8.4.3(@types/react@18.3.12)(storybook@8.4.3)(webpack-sources@3.2.3)':
+  '@storybook/addon-essentials@8.4.3(@types/react@18.3.12)(storybook@8.4.3)':
     dependencies:
       '@storybook/addon-actions': 8.4.3(storybook@8.4.3)
       '@storybook/addon-backgrounds': 8.4.3(storybook@8.4.3)
       '@storybook/addon-controls': 8.4.3(storybook@8.4.3)
-      '@storybook/addon-docs': 8.4.3(@types/react@18.3.12)(storybook@8.4.3)(webpack-sources@3.2.3)
+      '@storybook/addon-docs': 8.4.3(@types/react@18.3.12)(storybook@8.4.3)
       '@storybook/addon-highlight': 8.4.3(storybook@8.4.3)
       '@storybook/addon-measure': 8.4.3(storybook@8.4.3)
       '@storybook/addon-outline': 8.4.3(storybook@8.4.3)
@@ -6883,7 +6877,6 @@ snapshots:
       ts-dedent: 2.2.0
     transitivePeerDependencies:
       - '@types/react'
-      - webpack-sources
 
   '@storybook/addon-highlight@8.4.3(storybook@8.4.3)':
     dependencies:
@@ -7016,12 +7009,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@storybook/csf-plugin@8.4.3(storybook@8.4.3)(webpack-sources@3.2.3)':
+  '@storybook/csf-plugin@8.4.3(storybook@8.4.3)':
     dependencies:
       storybook: 8.4.3
-      unplugin: 1.15.0(webpack-sources@3.2.3)
-    transitivePeerDependencies:
-      - webpack-sources
+      unplugin: 1.16.0
 
   '@storybook/csf@0.1.11':
     dependencies:
@@ -7932,7 +7923,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001680
-      electron-to-chromium: 1.5.57
+      electron-to-chromium: 1.5.58
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -8350,7 +8341,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.57: {}
+  electron-to-chromium@1.5.58: {}
 
   elliptic@6.6.1:
     dependencies:
@@ -10930,12 +10921,10 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unplugin@1.15.0(webpack-sources@3.2.3):
+  unplugin@1.16.0:
     dependencies:
       acorn: 8.14.0
       webpack-virtual-modules: 0.6.2
-    optionalDependencies:
-      webpack-sources: 3.2.3
 
   update-browserslist-db@1.1.1(browserslist@4.24.2):
     dependencies:
